@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - marketplace</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fleuves Marketplace</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="seller-dashboard.html">Seller Dashboard</a></li>
+                <li><a href="product-page.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="order-history.html">Order History</a></li>
+                <li><a href="admin-panel.html">Admin Panel</a></li>
+            </ul>
+        </nav>
+        <form id="search-form">
+            <input type="text" placeholder="Search for products..." id="search-input">
+            <button type="submit">Search</button>
+        </form>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="banner">
+            <h1>Welcome to Fleuves Marketplace</h1>
+            <p>Connecting Buyers and Sellers in One Place</p>
+            <a href="product-page.html" class="cta-button">Explore Products</a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Fleuves Marketplace. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+<main>
+    <section class="auth-form">
+        <h2>Login to Your Account</h2>
+        <form action="/login" method="POST">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="register.html">Register Here</a></p>
+    </section>
+</main>
+<main>
+    <section class="seller-dashboard">
+        <h2>Seller Dashboard</h2>
+        <a href="add-product.html" class="cta-button">Add New Product</a>
+        <div class="product-list">
+            <!-- Dynamically display seller's products -->
+        </div>
+    </section>
+</main>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
